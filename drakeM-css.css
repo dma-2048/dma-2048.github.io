@@ -45,7 +45,7 @@ h2 {
 	font-family: Arial;
 	padding-left: 1em;
 	padding-right: 1em;
-	min-height: 500px;
+	min-height: 600px;
 }
 .floatImgLeft {
 	float: left;
@@ -55,5 +55,10 @@ h2 {
 .floatImgRight {
 	float: right;
 	margin-left: .5em;
+	border: .5em ridge #80ffff;
+}
+.floatImgCenter {
+	margin-left: auto;
+	margin-right: auto;
 	border: .5em ridge #80ffff;
 }
